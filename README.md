@@ -19,4 +19,4 @@ I never saved the database, hence all the errors.
 ![alt tag](https://github.com/Richardsl/archive_Fredagslisten.no/blob/master/1a932b7a-198c-4335-b068-7e69d6384911.gif?raw=true)
 
 The "finished" pdf
-![alt tag](https://github.com/Richardsl/archive_Fredagslisten.no/blob/master/1a932b7a-198c-4335-b068-7e69d6384911.gif?raw=true)
+![alt tag](https://github.com/Richardsl/archive_Fredagslisten.no/blob/master/fredagslister/fredagslisten.jpg?raw=true)
