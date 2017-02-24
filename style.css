@@ -1,0 +1,457 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: #666666;
+    /*color: #3F3E3D;*/
+    font-family: Helvetica,Arial,sans-serif;
+	text-decoration: none;
+
+	
+}
+body{
+	background-color: #F3F3EA;
+    background-image: url("images/bg1.jpg");
+    color: #534A47;
+	height: 1000px;	 
+	margin-top: 0px;	
+	margin: 0;
+}
+
+
+/*-----------------HEAD SECTION----------------*/
+#header{
+	margin-top: 30px;
+	position: relative;
+	width: 800px;
+	margin: 15px auto 0 auto;
+}
+#logo {
+	margin: 0 auto;	
+    color: #03537D;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 80px;
+    text-align: center;
+	font-weight:normal;
+    text-shadow: 0 1px 0 #A7D6F1;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+/*--------------------BODY SECTION----------------------------*/
+
+#wrapper{	
+	width: 800px;
+	margin: 5px auto 0;
+}
+#navbar{
+	width: 800px;
+	height: 80px;
+	margin: 0 auto;
+	
+}
+	/*-----------navigation-------------*/
+
+	#nav {		
+		height: 30px;
+		width: 784px;
+		/* box-shadow: 0 0 7px #DADADA;*/
+		background: none repeat scroll 0 0 white;
+		border: 1px solid #D2D2D2;
+		border-radius: 6px 6px 6px 6px;
+		font-size: 14px;
+		padding: 5px 7px;
+		
+	}
+	#navcenter {		
+		width: 100%; 
+		overflow: hidden;
+	}
+	#nav ul {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		text-align: center;
+		position: relative; 
+		float: left; 
+		display: block; 
+		left: 50%;
+	}
+	#nav ul li {
+		float: left; 
+		border-right: 1px solid #ccc;
+		position: relative; 
+		float: left; 
+		display: block; 
+		right: 50%;
+	}	
+	#nav li.last {
+		border: 0px;
+	}
+	#nav a {
+		display: block;
+		padding: 8px 15px;
+		text-decoration: none;
+		font-weight: bold;
+		color: #069;	
+	}
+	#nav li a:hover {
+		color: #666666;	
+	}
+	
+	
+	#nav li a.current {
+	display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+	font-weight: bold;		
+	color: #666666;
+    
+	}
+	/*-----------login-------------
+	
+	/*--------------line-------------*/
+	#text{
+		
+		color: #03537D;
+		font-family: 'Love Ya Like A Sister', cursive;
+		font-size: 20px;
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		height: 30px;
+		width: 800px;
+	}
+	
+	
+#content{
+	margin-top: 0px;
+	background: none repeat scroll 0 0 white;
+    border: 1px solid #D2D2D2;
+    border-radius: 6px 6px 6px 6px;
+    font-size: 14px;
+	padding: 15px 15px 55px 15px;
+	min-height:300px;
+	/* box-shadow: 0 0 7px #DADADA;*/
+	overflow: hidden;
+}
+
+#content ul{
+	margin: 4px 4px 4px 4px;
+}
+
+#content ul li {
+	text-decoration: none;
+	display: inline;
+	margin: 4px 4px 4px 4px;
+}
+
+.centertext{
+	width: 100%; 
+	display: table;
+	text-align: center;
+}
+.centercell{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+
+}
+
+#logoutblock{
+	width: 300px;
+	
+	margin: 10px auto;
+}
+.form{
+	padding: 5px;
+	margin: 6px;
+}
+.form tr td{
+	padding: 1px;
+}
+.green{
+	font-size: 30px;
+	color: green;
+	padding: 5px;
+}
+.red{
+	font-size: 30px;
+	color: red;
+	padding: 5px;
+}
+#username{
+	position: absolute;
+	color: #069;
+	top: 95px;
+	right: 10px;
+}
+.hor-zebra {
+    border-collapse: collapse;
+    font-family: "Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+    font-size: 12px;
+    margin: 20px;
+    text-align: left;
+    width: 340px;
+	float: left;
+}
+.hor-zebra tbody{
+   max-width: 350px;
+   display: block;
+}
+.hor-zebra thead{
+      max-width: 350px;
+   display: block;
+}
+
+.hor-zebra th {
+    color: #003399;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 8px;
+}
+.hor-zebra td {
+    color: #666699;
+    padding: 8px;
+	max-width: 180px;
+    min-width: 120px;
+    overflow: hidden;
+}
+.hor-zebra tr {
+
+display: block;
+    max-width: 340px;
+    min-width: 340px;
+    overflow: hidden;
+}
+.hor-zebra .odd {
+    background: none repeat scroll 0 0 #E8EDFF;
+}
+
+
+#spacer{clear:both; height:1px;}
+/* ----------- My Form ----------- */
+
+
+/* ----------- stylized ----------- */
+.stylized{
+
+border:solid 2px #b7ddf2;
+background:#ebf4fb;
+width:300px;
+margin: 20px;
+padding: 5px 15px 15px;
+float: left;
+}
+.stylized h1 {
+font-size:14px;
+font-weight:bold;
+margin-bottom:8px;
+}
+.stylized h2 {
+margin-top: 5px;
+}
+.stylized p{
+font-size:11px;
+color:#666666;
+margin-bottom:10px;
+border-bottom:solid 1px #b7ddf2;
+padding-bottom:0px;
+}
+.stylized .notice {
+	font-size: 9px;
+    padding: 5px;
+}
+
+.stylized label{
+display:block;
+font-weight:bold;
+text-align:right;
+width:100px;
+float:left;
+}
+.stylized small{
+color:#666666;
+display:block;
+font-size:11px;
+font-weight:normal;
+text-align:right;
+width:140px;
+}
+.stylized input{
+float:left;
+font-size:12px;
+padding:4px 2px;
+border:solid 1px #aacfe4;
+width:130px;
+
+margin:2px 0 10px 10px;
+}
+.positionname {
+font-weight:bold;
+}
+.button{
+
+width:125px;
+height:31px;
+text-align:center;
+/*line-height:31px;*/
+font-size:11px;
+font-weight:bold;
+display: table-cell;
+text-align: center;
+vertical-align: middle;
+}
+.smallbutton{
+
+width:85px;
+height:28px;
+text-align:center;
+line-height:11px;
+font-size:8px;
+font-weight:bold;
+display: table-cell;
+text-align: center;
+vertical-align: middle;
+margin: 0px 5px 0px 5px;
+}
+
+/*------------------------*/
+.stylizedinfo{
+
+border:solid 2px #b7ddf2;
+background:#ebf4fb;
+width:300px;
+margin: 20px;
+padding:14px;
+float: left;
+}
+.stylizedinfo h1 {
+font-size:14px;
+font-weight:bold;
+margin-bottom:8px;
+}
+
+.stylizedinfo p{
+font-size:11px;
+color:#666666;
+margin-bottom:20px;
+border-bottom:solid 1px #b7ddf2;
+padding-bottom:10px;
+}
+.stylizedinfo label{
+
+font-weight:bold;
+text-align:right;
+width:100px;
+
+}
+.stylizedinfo small{
+color:#666666;
+display:block;
+font-size:11px;
+font-weight:normal;
+text-align:right;
+width:140px;
+}
+.stylizedinfo input{
+
+font-size:12px;
+padding:4px 2px;
+border:solid 1px #aacfe4;
+width: 150px;
+/*margin:2px 30px 20px 10px;*/
+}
+.stylizedinfo tr{
+
+
+padding:4px 2px;
+
+margin:2px 30px 20px 10px;
+}
+.stylizedinfo td{
+width: 80px;
+padding:4px 2px;
+margin:2px 30px 20px 10px;
+}
+/*-------------------REGISTRER-----------------------*/
+#loginblock{
+	width: 770px;
+	overflow: hidden;
+    width: 100%;
+}
+
+
+.send p {
+    margin: 20px 0px 10px 0px;
+}
+
+.send label {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px 0px 10px 0px;
+}
+.send input, textarea {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #C9C9C9;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset, -5px -5px 0 0 #F5F5F6, 5px 5px 0 0 #F5F5F6, 5px 0 0 0 #F5F5F6, 0 5px 0 0 #F5F5F6, 5px -5px 0 0 #F5F5F6, -5px 5px 0 0 #F5F5F6;
+    color: #545658;
+    font-size: 14px;
+    padding: 8px;
+	
+}
+#linetwo{
+		
+	color: #666666;
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-size: 10px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	height: 30px;
+	width: 400px;
+	margin: 0px auto;
+}
+#registerblock{
+	width: 770px;
+	overflow: hidden;
+	
+}
+.registerblock .send p {
+    float: left;
+}
+.registerright .registerbutton {
+    margin: 15px 0px 0px 0px;
+}
+
+textarea {
+margin:5px auto 10px auto;
+}
+
+/*-----------pdftemplate----------------*/
+.stylizedinfo .pdftemplateinput{
+font-size:12px;
+padding:4px 2px;
+border:solid 1px #aacfe4;
+width:120px;
+}
+
+
+
+/*---------------FOOTER--------------*/
+#footer{
+	margin: 0 auto;
+    font-size: 14px;
+	width: 120px;
+	padding: 15px;
+}

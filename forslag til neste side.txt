@@ -1,0 +1,14 @@
+lag en include over kvar side du he, san at du slepp å skrive login på nytt å på nytt.
+
+Lag en go plan over alle side, å ka som skal sendast kor
+
+lag en validate fil frå begyndelsen av
+
+lag en config_fredagslisten elns der ROOTS åsan ligge. so oppdatera man kun den fila til serveren en gong, åso kan man oppdatere index mellom
+wamp å linux so ofte man vil, uten at man sleppe å tenke på å overskrive
+
+laga en script mappe, en page mappe å en template mappe.
+
+alt so kan endre sej, som navn på headinge å side åsann som "mannskap" må vær en variabel tidli.
+kansje to navn som feks "fredagslisten" å "list", en til koding, å en til framvisning
+d e kansje ikke so domt på navn i SQL me, men prøv å finn ut san at man kan ha språk en annen plass å bytte.
