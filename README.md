@@ -1,21 +1,17 @@
-## Laravel PHP Framework
+## The relic of a "sailor news" PHP application used to keep sailors updated on "sailor news" from within the company they work for 
 
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/version.png)](https://packagist.org/packages/laravel/framework) [![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.png)](https://packagist.org/packages/laravel/framework) [![Build Status](https://travis-ci.org/laravel/framework.png)](https://travis-ci.org/laravel/framework) [![License](https://poser.pugx.org/laravel/framework/license.png)](https://packagist.org/packages/laravel/framework)
+This application was supposed to keep sailors updated on "sailor news" from within the company they worked for.
+I created this while working at sea, and got the idea from the captain.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.
+The idea never materialized... 
 
-Laravel aims to make the development process a pleasing one for the developer without sacrificing application functionality. Happy developers make the best code. To this end, we've attempted to combine the very best of what we have seen in other web frameworks, including frameworks implemented in other languages, such as Ruby on Rails, ASP.NET MVC, and Sinatra.
+#basic operation:
+The sailors themselves was supposed to login to a web interface and upload information regarding there own crew... shifts, names, positions etc.
+Every friday the software was supposed to automagically generate a PDF newsletter and send it out to all the subscribers.
+The crew would then print the newsletter out and put it in the messroom.
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+Below you can get a basic idea of the design.
+I never saved the database, hence all the errors.
 
-## Official Documentation
-
-Documentation for the entire framework can be found on the [Laravel website](http://laravel.com/docs).
-
-### Contributing To Laravel
-
-**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
-
-### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+![alt tag](7c023570-8e2b-47b8-991f-4143e4799a40.png)
+![alt tag](1a932b7a-198c-4335-b068-7e69d6384911.png)

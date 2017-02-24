@@ -275,22 +275,8 @@ if ($page == 'logout')
 
 if ($page == 'receivers')
 {
-	if (!userIsLoggedIn())
-	{
-		$arr['title'] = 'login';
-		$arr['heading'] = 'login';
-		$arr['activePage'] = 'receivers';
-		$arr['redirect'] = 'receivers';
-		
-		if(isset($loginError))
-		{ $arr['loginError'] = $loginError; }
-		
-		render('login.html.php',$arr);
-		exit();
-	}
 	
-	
-	
+
 	$arr['title'] = 'Mottakere av listen';
 	$arr['heading'] = 'Mottakere av listen';
 	$arr['activePage'] = 'receivers';
@@ -311,12 +297,12 @@ if ($page == 'receivers')
 	$receivers = $s->fetch();
 	$arr['receivers'] = $receivers;
 	
-	/*
+	
 	echo '<pre>';
 	print_r($receivers);
 	echo '</pre>';
 	exit();
-	*/
+	
 	render('receivers.html.php',$arr); 
 	
 	exit();
