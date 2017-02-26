@@ -4,6 +4,7 @@ This application was supposed to keep sailors updated on "sailor news" from with
 I created this while working at sea, and stole the idea from the captain :)
 
 The idea never materialized though... 
+<img src="php-logo.png" width="110px"><img src="logo-mysql.png" width="110px">
 
 ##Basic operation
 The sailors themselves was supposed to login to a web interface and upload information regarding their own crew... shifts, names, positions etc.
@@ -18,5 +19,6 @@ I never saved the database, hence all the errors.
 ![alt tag](https://github.com/Richardsl/archive_Fredagslisten.no/blob/master/7c023570-8e2b-47b8-991f-4143e4799a40.gif?raw=true)
 ![alt tag](fredagslisten_screenshot.png)
 
-The "finished" pdf
+
+Part of the pdf the software would generate every friday:
 ![alt tag](https://github.com/Richardsl/archive_Fredagslisten.no/blob/master/fredagslister/fredagslisten.jpg?raw=true)
