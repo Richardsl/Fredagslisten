@@ -1,6 +1,7 @@
-# The relic of a "sailor news" PHP/MySQL application 
+# The relics of a "sailor news" webapp from 2013 
 
 This application was supposed to keep sailors updated on "sailor news" from within the company they worked for.
+
 I created this while working at sea, and stole the idea from the captain :)
 
 The idea never materialized though... 
