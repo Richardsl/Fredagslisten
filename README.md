@@ -4,6 +4,7 @@ This application was supposed to keep sailors updated on "sailor news" from with
 I created this while working at sea, and stole the idea from the captain :)
 
 The idea never materialized though... 
+
 <img src="php-logo.png" width="110px"><img src="logo-mysql.png" width="110px">
 
 ##Basic operation
