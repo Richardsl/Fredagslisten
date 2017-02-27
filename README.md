@@ -15,7 +15,7 @@ Every friday the software would automagically generate a PDF newsletter and send
 The crew would then print the newsletter and put it in the messroom.
 
 Below you can get a basic idea of the design.
-I never saved the database, hence all the errors.
+I never saved the database, hence some data is lost.
 
 
 ![alt tag](https://github.com/Richardsl/archive_Fredagslisten.no/blob/master/7c023570-8e2b-47b8-991f-4143e4799a40.gif?raw=true)
